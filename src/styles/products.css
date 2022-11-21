@@ -1,0 +1,36 @@
+.image1{
+width: 260px;
+height: 300px;
+}
+.fea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer1{
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #dfe6e9;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .heart{
+    margin-left: 14rem;
+    margin-top: 2rem;
+} */
+.heart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.name1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}

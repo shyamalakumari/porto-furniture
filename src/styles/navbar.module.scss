@@ -1,0 +1,15 @@
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+    .inp{
+        width: 320px;
+        height: 80px;
+
+    }
+    .dropdown{
+        margin-left: 5rem;
+    }
+}
