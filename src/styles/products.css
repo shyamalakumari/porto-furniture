@@ -12,7 +12,7 @@ height: 300px;
     grid-template-columns: auto auto auto; */
     display: flex;
     justify-content: space-around;
-    background-color: #dfe6e9;
+    background-color: #dfe4ea;
 }
 .name{
     display: flex;

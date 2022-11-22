@@ -13,14 +13,14 @@ const Banner2 = () =>{
         <div ><h2 className="categories">FEATURED CATEGORIES</h2>
        <div className="catimg">
         <div className="first">
-     <div><img className="img1" src={cat}/></div>
-     <div><img className="img2" src={catt}/></div>
-     <div><img className="img3" src={cattt}/></div>
+     <div><button className="btn1">FASHION</button><img className="img1" src={cat}/></div>
+     <div><button className="btn2">FURNITURE</button><img className="img2" src={catt}/></div>
+     <div><button className="btn3">DECOR</button><img className="img3" src={cattt}/></div>
      </div>
      <div className="second">
-     <div className="img4"><img className="img4" src={catttt}/></div>
-     <div><img className="img5" src={cats}/></div>
-     <div><img className="img6" src={catss}/></div>
+     <div className="img4"><button className="btn4">ACCESSORIES</button><img className="img4" src={catttt}/></div>
+     <div><button className="btn5">MOBILE</button><img className="img5" src={cats}/></div>
+     <div><button className="btn6">FOOTWERE</button><img className="img6" src={catss}/></div>
     </div>
     </div>
        

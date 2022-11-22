@@ -5,7 +5,7 @@ const Banner = () => {
     return(
         <div className='ban'>
         <div> 
-            <img className='image' src={logo2}/>
+            <img className='logo' src={logo2}/>
             </div>
             <div className='container'>
               <h3 className='find'>FIND A PRODUCT</h3>
@@ -39,9 +39,13 @@ const Banner = () => {
                 
             </select>
           </div>
-          <div> 
-            <img className='imagg' src={logo3}/>
-            
+          <div className='parent'> 
+            <img className='headset' src={logo3}/>
+            <div className='child'>ELECTRONIC</div>
+            <div className='child1'>DEALS</div>
+            <button className='but'>Exclusive COUPON</button>
+            <button className='but1'>$100</button>
+            <p className='of'>OFF</p>
             </div>
             </div>
 

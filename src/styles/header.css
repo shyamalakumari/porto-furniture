@@ -1,7 +1,7 @@
 .main{
   height: 100%;
     /* background-color: rgba(240, 221, 221, 0.936); */
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #b2bec3;
 }
 .div{
     display: flex;
@@ -12,8 +12,9 @@
 
 .nav{
     margin-top: 1rem;
-    color: gray;
-  
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 .navv{
@@ -21,6 +22,7 @@
     color: gray;
   
 }
+
 
 .inp{
     margin-top: 1.5rem;
@@ -82,21 +84,23 @@ select {
     justify-content: space-evenly;
 }
 
-.image{
+.logo{
     margin-top: 2rem;
-    margin-left: 5rem;
+    margin-left: 6rem;
+    
 }
 
 .container{
     height: 200px;
-    width: 380px;
+    width: 430px;
     background-color: black;
     margin-top: 2rem;
+    margin-right: 7rem;
 }
 
 .drp1{
     /* margin-top: 3.5rem; */
-    width: 350px;
+    width: 380px;
     height: 50px;
     /* margin-left: 6rem; */
     display: flex;
@@ -105,22 +109,22 @@ select {
 
 }
 .opt{
-    height: 30px;
-    width: 330px;
+    height: 40px;
+    width: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 .find{
     color: white;
     font-weight: bold;
-    margin-left: 6rem;
+    margin-left: 7rem;
     font-size: 20px;
 }
 .drp2{
  
-    width: 350px;
+    width: 380px;
     height: 50px;
     /* margin-left: 6rem; */
     display: flex;
@@ -141,13 +145,76 @@ select {
 
 
 
+.parent{
+    margin-top: 3rem;
+}
+
+.headset{
+    position: relative;
+    height: 250px;
+
+}
+.child{
+    position: absolute;
+    top: 73%;
+    right: 13%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.child1{
+    position: absolute;
+    top: 76%;
+    right: 13%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.but{
+    position: absolute;
+    top: 82%;
+    right: 13%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 28px;
+    
+    
+}
+
+
+.but1{
+    position: absolute;
+    top: 87%;
+    right: 18%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 60px;
+    font-size: 18px;
+    
+    
+}
+.of{
+    position: absolute;
+    top: 85%;
+    right: 14%;
+    
+    
+    font-weight: bold;
+    height: 30px;
+    width: 60px;
+    font-size: 18px;
+}
 
 
 
 
 
-
-
+.fea{
+    font-size: 20px;
+}
 
 
  .catimg{
@@ -165,11 +232,13 @@ select {
     grid-template-columns: auto auto auto;
     justify-content: center;
     column-gap: 1rem;
+    margin-top: 1rem;
 }
 .categories{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 
@@ -177,7 +246,7 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 .off{
     display: grid;
@@ -186,15 +255,236 @@ select {
     column-gap: 1rem
 }
 .bann{
-    height: 220px;
+    height: 240px;
    position: absolute;
-   
-   top: 15%;
+   width: 550px;
+   top: 12%;
    left: 1rem;
 }
-.iii{
+.ban3{
     height: 300px;
-    width: 500px;
-    position: relative;
+    width: 580px;
+   
     background-color: #dfe6e9;
+}
+
+.bann{
+    position: relative;
+}
+.banno1{
+    
+    color: black;
+    font-size: 50px;
+    
+    left: 14%;
+    font-family:'Brush Script MT','cursive';
+    
+}
+.bann2{
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    left: 14%;
+    top: 295%;;
+    font-size: 38px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bann3{
+    position: absolute;
+    color: gray;
+    font-size: 17px;
+    top: 310%;;
+    left: 14%;
+    font-weight: bold;
+}
+
+.amazing{
+    position: absolute;
+    color: rgb(9, 6, 6);
+    font-size: 17px;
+    top: 265%;;
+    right: 21%;
+    font-weight: bold;
+}
+
+.collec{
+    position: absolute;
+    color: rgb(9, 6, 6);
+    font-size: 33px;
+    top: 267%;;
+    right: 17%;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check{
+    position: absolute;
+    color: rgba(128, 128, 128, 0.913);
+    font-size: 16px;
+    top: 276%;;
+    right: 17%;
+   
+}
+
+.shop{
+    position: absolute;
+    color: rgba(128, 128, 128, 0.913);
+    font-size: 16px;
+    top: 280%;;
+    right: 22%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn1{
+    color: white;
+    background-color: black;
+    position: absolute;
+  top:136%;
+height: 45px;
+width: 110px;
+font-size: 15px;
+}
+
+
+
+
+.btn2{
+    color: white;
+    background-color: black;
+    position: absolute;
+  top:136%;
+height: 45px;
+width: 116px;
+font-size: 15px;
+}
+
+
+
+.btn3{
+    color: white;
+    background-color: black;
+    position: absolute;
+  top:136%;
+height: 45px;
+width: 110px;
+font-size: 15px;
+}
+
+
+
+.btn4{
+    color: white;
+    background-color: black;
+    position: absolute;
+  top:172%;
+height: 45px;
+width: 171px;
+font-size: 15px;
+}
+.btn5{
+    color: white;
+    background-color: black;
+    position: absolute;
+  top:172%;
+height: 45px;
+width: 120px;
+font-size: 15px;
+}
+.btn6{
+    color: white;
+    background-color: black;
+    position: absolute;
+  top:172%;
+height: 45px;
+width: 130px;
+font-size: 15px;
+}
+
+
+
+
+
+
+
+.sub{
+  margin-left: 9.5rem;
+  margin-top: 1rem;
+  position: relative;
+}
+.sub1{
+    position: absolute;
+    top: 340%;
+    left: 40%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.sub2{
+    position: absolute;
+    top: 347%;
+    left: 37%;
+    font-size: 18px;
+   color: grey;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner6{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+   margin-top: 1rem;
+}
+.search1{
+    position: absolute;
+    width: 380px;
+    height: 30px;
+    top: 353%;
+    left: 40%;
+}
+
+
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 0.8rem;
 }
